@@ -4,10 +4,8 @@ while i < array.length
   yield(array[i])
   i = i + 1
 end
-my_collect(languages) do |language|
-         language.upcase
 end
-my_collect(students) do |student|
-         student.split(" ").first
-end
-end 
+#my_collect(languages) do |language|
+         #language.upcase
+#my_collect(students) do |student|
+         #student.split(" ").first
