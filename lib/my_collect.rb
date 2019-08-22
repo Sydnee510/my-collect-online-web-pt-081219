@@ -5,6 +5,7 @@ while i < array.length
   grouping << yield(array[i])
   i += 1
 end
+grouping
 end
 #my_collect(languages) do |language|
          #language.upcase
